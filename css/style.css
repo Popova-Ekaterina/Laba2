@@ -1,0 +1,1422 @@
+:root
+{
+  --btn-text-color: #FFFFFF;
+  --btn-color-bg: #F53838;
+}
+
+body
+{
+    background:#F6F6F6;;
+}
+
+/*логотип в верхнем левом углу*/
+.logo
+{
+    position: relative;
+    width: 1050px;
+    height: 50px;
+    left: 121.3px;
+    top: 55px;
+}
+
+
+/*меню по разным страницам*/
+.Menu
+{
+    position: relative;
+    top: -30px;
+    width: 46px;
+    left: 400px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+
+ul.Menu_vr
+{
+
+    display:inline-flex; /* расположение в ряд, а не столбцом */
+}
+
+
+  .Menu_vr li 
+{
+    font-size: 16px ;
+
+    list-style: none;   
+}
+  
+  .Menu_vr li a
+{
+    text-decoration: none;
+    margin: 30px;
+    color: #4F5665;
+}
+
+.li_menu
+{
+    list-style-type:none;
+    font-size: 16px ;
+
+ 
+}
+
+.menu_link
+{
+    margin: 30px;
+    color: #4F5665;
+    text-decoration-line: none;
+}
+
+.menu_link:hover
+
+{
+    text-decoration-line:underline
+}
+
+.signin
+{  
+    position: absolute;
+    width: 53px;
+    height: 19px;
+    left: 800px;
+    top: 67px;
+    left: 1200px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 19px;  
+}
+
+.signlink
+{
+    text-decoration-line: none;
+    color: #0B132A;  
+}
+
+.signlink:hover
+{
+    text-decoration-line:underline;
+}
+
+/*создание аккаунта*/
+.signbutton
+{  
+    position: absolute;
+    width: 60px;
+    height: 19px;
+    
+   font-family: Rubik;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 19px;
+
+   color: #F53855;
+
+   width: 150px;
+   height: 45px;
+   left: 850px;
+   top: 55px;
+   left: 1300px;
+    
+   border: 1px solid #F53855;
+   box-sizing: border-box;
+   border-radius: 50px
+}
+
+.signbutton:hover
+{
+    text-decoration: underline;
+    color:orange;
+}
+
+/*Want anything...*/
+.h1VPN1
+{  
+    width: 555px;
+    height: 140px;
+    margin-top: 106.77px;;
+    margin-left: 121.3px ;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+
+    color: #0B132A
+}
+
+.spanLVPN1
+{
+    font-family: Rubik;
+    font-style:normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.pLVPN
+{  
+    width: 555px;
+    height: 60px;
+    left: 150px;
+    top: 390.77px;
+    margin-left: 121.3px ;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    
+    color: #4F5665;
+}
+
+.spanLVPN2
+{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+
+
+/*Кнопка Get started*/
+.GetStarted
+{
+    width: 95px;
+    height: 25px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--btn-text-color);
+    width: 250px;
+    height: 60px;
+    margin-left: 121.3px ;
+    margin-top: 76.77px;;
+    
+    background: var(--btn-color-bg);
+    border-radius: 10px; 
+    border-color: rgb(255, 0, 0);
+
+}
+
+.GetStarted:hover
+{
+  color:maroon;
+}
+
+/*картинка большая*/
+
+.Illust1
+{  
+    position: absolute;
+    left: 850.76px;
+    top: 150px;
+}
+
+
+/*флекс*/
+.uls
+{
+    background-color: rgb(255, 255, 255);
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 30px 30px;
+    display: flex; /* Так у блоков появилось свойство flex-контекст, 
+    которое в дальнейшем позволит ими управлять гораздо проще, чем с использованием стандартного CSS. */
+    justify-content: space-around; /* justify-content отвечает за выравнивание элементов по главной оси */ /* Space-around также задаёт
+     одинаковое расстояние между блоками, но теперь расстояние между контейнером и блоками равно половине расстояния между блоками.*/
+    border-radius: 10px; 
+    margin-top: 100px;
+}
+
+.User
+{  
+    background-color: rgb(255, 236, 236);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center; /* justify-content отвечает за выравнивание элементов по главной оси */ 
+}
+
+.p90
+{  
+    width: 49px;
+    height: 30px;
+    left: 332.5px;
+    top: 732.05px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #0B132A;
+}
+
+.pUsers
+{   
+    width: 53px;
+    height: 30px;
+    left: 332.5px;
+    top: 767.05px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #4F5665;
+}
+
+.LocPicture
+{ 
+    width: 55px;
+    height: 55px;
+
+    left: 628.5px;
+    top: 737.05px;
+    
+    background: #FFECEC;
+
+    border-radius: 70px;
+}
+
+.p30
+{  
+    width: 49px;
+    height: 30px;
+    left: 720px;
+    top: 732.05px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    
+    color: #0B132A;
+}
+
+.pLocation
+{ 
+    width: 91px;
+    height: 30px;
+    left: 720px;
+    top: 767.05px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #4F5665
+}
+
+.ServerPic
+{
+    width: 55px;
+    height: 55px;
+    left: 1037px;
+    top: 737.05px;
+
+    background: #FFECEC;
+    border-radius: 70px;
+}
+
+.p50
+{ 
+    width: 49px;
+    height: 30px;
+    left: 1128.5px;
+    top: 732.05px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    
+    color: #0B132A;
+}
+
+.pServers
+{ 
+    width: 71px;
+    height: 30px;
+    left: 1128.5px;
+    top: 767.05px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #4F5665;
+}
+
+/*картинка номер 2*/
+.Illust2
+{
+    position: relative;
+    width: 508.12px;
+    height: 414.71px;
+    left: 270.52px;
+    top: 200.38px;
+}
+
+.h2Use
+{ 
+    position: relative;
+    width: 383.41px;
+    height: 100px;
+    left: 950.12px;
+    top: -300px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    
+    color: #0B132A; 
+}
+
+.pUse
+{
+    position: relative;
+    width: 427.88px;
+    height: 60px;
+    left: 950.12px;
+    top: -290px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    
+    color: #4F5665;
+}
+
+
+/*список*/
+
+.pntgreen
+{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+}
+.pnt1
+{  
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin-left: 950.12px;
+    top: -250px;
+}
+
+.pnt2
+{  
+ position: relative; 
+ width: 24px;
+ height: 24px;
+ margin-left: 950.12px;
+ top: -220px;
+}
+
+.pnt3
+{   
+ position: relative;
+ width: 24px;
+ height: 24px;
+ margin-left: 950.12px;
+ top: -190px;
+}
+
+.pnt4
+{
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin-left: 950.12px;
+    top: -160px;
+}
+
+.Green
+{
+    list-style-type:none; 
+
+    position: relative; /*позицию можно менять*/
+    width: 179px;
+    height: 30px;
+    margin-left: 950.12px;
+    top: -350px;
+    left: 40px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+
+    
+    color: #4F5665;
+}
+
+.Green li
+{
+    margin-bottom: 26px;
+}
+
+.plan 
+{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    
+    color: #0B132A;
+    
+}
+
+.pLets
+{   
+    box-sizing: border-box;
+
+    margin: 0px;
+    min-width: 0px;
+
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+
+    text-align: center;
+
+    color: #4F5665;
+}
+
+/*бесплатный стандартный и премиум планы*/
+.CYP
+{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content:space-evenly;
+    border-radius: 50px;
+    margin-top: 100px;
+    
+}
+
+
+
+
+.FreePlan
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 80px 45px 180px;
+    width: 350px;
+    position: relative;
+    margin-bottom: 100px;
+    
+}
+.FreePlan:hover
+{
+    border: 2px solid red;
+}
+
+.pFP
+{ 
+    position: relative;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+ 
+    text-align: center;
+    
+    color: #0B132A; 
+}
+
+.pFree
+{ 
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    
+    text-align: center;
+    
+    color: #0B132A;
+}
+
+.SelectF
+{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 40px;
+    text-decoration-line: none;
+    text-align: center;
+    text-decoration-line: none;
+
+    color: #F53838;
+    
+    width: 177.88px;
+    height: 45px;
+    left: 251.06px;
+    top: 2441.55px;
+    
+    border: 2px solid #F53838;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.SelectF:hover
+{
+    text-decoration-line: underline;
+    color:orange;
+}
+
+.StandardPlan
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 80px 45px 180px;
+    width: 350px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.StandardPlan:hover
+{
+    border: 2px solid red;
+}
+
+.pStandard
+{
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    
+    text-align: center;
+    
+    color: #0B132A;
+}
+
+.p9
+{
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #0B132A;
+}
+
+
+.SelectS
+{
+    vertical-align: middle;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration-line: none;
+    
+    color: #F53838;
+
+    width: 177.88px;
+    height: 45px;
+    left: 631.06px;
+    top: 2441.55px;
+    border: 2px solid #F53838;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.SelectS:hover
+{
+    text-decoration-line: underline;
+    color:orange;
+}
+
+.PremiumPlan
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 80px 45px 180px;
+    width: 350px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.PremiumPlan:hover
+{
+    border: 2px solid red;
+}
+
+.pPrPlan
+{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    
+    text-align: center;     
+}
+
+.p12
+{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    
+    text-align: center;
+    
+    color: #0B132A;
+}
+
+.SelectP
+{  
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 43px;
+    text-align:center;
+    text-decoration-line: none;
+    
+    color: #FFFFFF;
+
+    width: 177.88px;
+    height: 45px;
+    left: 1011.06px;
+    top: 2441.55px;
+
+    background: #F53838;
+    border-radius: 50px;
+}
+
+.SelectP:hover
+{
+    text-decoration-line: underline;
+    color:maroon;
+}
+
+/*Huge Global Network of Fast VPN*/
+.section4
+{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 350px;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    
+}
+.h2Huge
+{
+    position: relative;
+    width: 447.81px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 90px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    margin-top: 120px;
+    
+    color: #0B132A
+}
+
+.pHGN
+{
+    
+    font-weight: 400;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    
+    text-align: center;
+    
+    color: #4F5665;
+    
+}
+.pHGNVPN
+{
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 16px;
+    line-height: 30px;
+    
+    text-align: center;
+    
+    color: #4F5665;
+}
+
+.Sponsors
+{
+    display: inline-flex;
+    align-content: space-between;
+    align-items: center;
+    
+    justify-content: space-around;
+    gap: 50px;
+
+}
+
+/*Trusted by Thousands of Happy Customers*/
+
+.section5 h2
+{
+    position: relative;
+    width: 447.81px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 90px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    
+    color: #0B132A;
+}
+
+.Trusted
+{
+    position: relative;
+    width: 555px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    
+    text-align: center;
+    
+    color: #4F5665;
+}
+
+.pTrusted
+{
+    position: relative;
+    width: 555px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    
+    text-align: center;
+    
+    color: #4F5665;
+}
+
+
+.stories
+{
+    overflow: scroll hidden;
+    margin-left: 50px;
+    margin-top: 60px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.Robert
+{
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    position: relative;
+    margin-left: 30px;
+    height: 250px;  
+}
+.Robert:hover /*рамка при наводке*/
+{
+    border: 2px solid red; 
+}
+
+.PictureRob
+{
+    position: relative;
+    width: 182px;
+    height: 50px;
+    left: 30px;
+    top: 24.25px;
+}
+
+.pMark1
+{
+    position: relative;
+    width: 24px;
+    height: 16px;
+    left: 270px;
+    top: -43px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    
+    
+    color: #0B132A;
+    
+}
+
+.star1
+{
+    position: relative;
+    width: 16px;
+    height: 16px;
+    left: 310px;
+    top: -70px; 
+}
+
+.pCom1
+{
+    position: relative;
+    width: 340px;
+    height: 100px;
+    left: 10px;
+    top: -20px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+    color: #0B132A;
+}
+
+.Yessica
+{
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    position: relative;
+    margin-left: 30px;
+    height: 250px;  
+}
+
+.Yessica:hover
+{
+    border: 2px solid red; 
+}
+
+.PicYessica
+{   
+    position: relative;
+    width: 212.02px;
+    height: 50px;;
+    left: 30px;
+    top: 24.25px;
+}
+
+.pCom2
+{   
+   width: 340px;
+   height: 100px;
+
+   font-family: Rubik;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 30px;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+
+   color: #0B132A;
+}
+
+.Young
+{
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.Young:hover
+{
+    border: 2px solid red; 
+}
+
+.PictureYoung
+{ 
+    position: relative;
+    width: 212.02px;
+    height: 50px;
+    left: 30px;
+    top: 24.25px;
+}
+
+.pCom3
+{ 
+    width: 340px;
+    height: 100px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    color: #0B132A;
+}
+
+/*Кнопки под коментами*/
+.Scroll
+{
+   position: relative;
+   width: 135px; 
+   height: 15px;
+   left: 50px;
+   top: 50px;
+}
+
+.ButtonLeft
+{
+    position: relative;
+    background-image: url("images/left.png");
+    width: 60px;
+    height: 60px;
+    float: right;
+    margin: 0 150px;
+    top: 70px;
+
+    border-radius: 50%;
+    border: 2px solid rgb(243, 60, 60);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: white;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+.ButtonRight
+{
+    position: relative;
+    background-image: url("images/right.png");
+    width: 60px;
+    height: 60px;
+    float: right;
+    margin: 0 -290px 0 0;
+    top: 83px;
+    
+
+
+    
+    border: 2px solid rgb(246, 246, 246);
+    position: relative;
+   
+    border-radius: 50%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    background-repeat: no-repeat;
+
+}
+
+/*Сабскрайб*/
+.Subscribe
+{
+    background-color: rgb(255, 255, 255);
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 35px 90px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-top: 200px;
+}
+.Sub1
+{
+    position: relative;
+    width: 371.61px;
+    height: 80px;
+    text-align:justify;
+    top: -40px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    
+    color: #0B132A;
+}
+
+.Sub2
+{
+    position: absolute;
+    font-weight: 400;
+    
+    font-size: 16px;
+    left: 160px;
+    top: 4940px;;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #4F5665;
+}
+
+.Sub
+{
+    position: relative;
+
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(245, 56, 56);
+    width: 250px;
+    height: 30px;
+    float: right;
+    margin: 0 150px;
+    top: -150px;
+
+    cursor: pointer;
+    
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.Sub:hover
+{
+   color:maroon
+}
+
+/*Футтер*/
+.Logo2
+{
+    position: relative;
+    width: 149px;
+    height: 36.23px;
+    left: 250px;
+    top: 105.78px;
+    
+}
+
+.pLaslesVPN
+{
+    position: relative;
+    width: 340px;
+    height: 61.57px;
+    left: 250px;
+    top: 105.78px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    
+    color: #4F5665;
+}
+
+.FootLasVPN
+{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+/*Соц. сети*/
+.facebook
+{
+    position: relative;
+    width: 33.6px;
+    height: 33.6px;
+    left: 230px;
+    top: 150px;
+    background-image: ("Картинки/Facebook.png");
+}
+
+.twitter
+{ 
+    position: relative;
+    width: 33.6px;
+    height: 33.6px;
+    left: 230px;
+    top: 150px;
+    background-image: ("Картинки/Twitter.png");
+}
+
+.inst
+{ 
+    position: relative;
+    width: 33.6px;
+    height: 33.6px;
+    left: 230px;
+    top: 150px;
+    background-image: ("Картинки/Instagram.png");
+}
+
+.vpn2020
+{   
+    position: relative;
+    width: 132px;
+    height: 30px;
+    left: 250px;
+    top: 150px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+
+    text-align: center;
+
+    color: #AFB5C0;
+}
+
+.foott
+{
+    box-sizing: border-box;
+    margin-top: -180px;
+    margin-left: 1000px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-content: space-around;
+    align-items:flex-start;
+    
+}
+
+.foott h3
+{
+    display: flex;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items:flex-start;
+}
+
+.foott ul
+{
+    display: flex;
+    line-height: 40px;
+    font-family: Rubik;
+    font-style: normal;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content:space-around;
+    align-items: flex-start;
+}
+
+.h3En:hover
+{
+    text-decoration-line: underline;
+    color: #0B132A;
+}
+
+.En-link
+{
+    text-decoration-line: none;
+    color: #4F5665;
+}
+
+.En-link:hover
+{
+    text-decoration-line: underline;
+    color: #4F5665;
+}
+
+.Enli
+{
+    list-style-type: none;
+}
+
+
+.h3Pr:hover
+{
+    text-decoration-line: underline;
+    color: #0B132A;
+}
+
+.Pr-link
+{
+    text-decoration-line: none;
+    color: #4F5665;
+}
+
+.Pr-link:hover
+{
+    text-decoration-line: underline;
+    color: #4F5665;
+}
+
+.Prli
+{
+    list-style-type: none;
+}
+
+
+.h3Em:hover
+{
+    text-decoration-line: underline;
+    color: #0B132A;
+}
+
+
+.Em-link
+{
+    text-decoration-line: none;
+    color: #4F5665;
+}
+
+.Em-link:hover
+{
+    text-decoration-line: underline;
+    color: #4F5665;
+}
+
+.EmLi
+{
+    list-style-type: none;
+}
