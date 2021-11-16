@@ -1106,7 +1106,7 @@ ul.Menu_vr
     top: 70px;
 
     border-radius: 50%;
-    border: 2px solid rgb(243, 60, 60);
+    border: 2px solid rgb(240, 53, 53);
     display: flex;
     -webkit-box-align: center;
     align-items: center;
@@ -1181,7 +1181,7 @@ ul.Menu_vr
     
     font-size: 16px;
     left: 160px;
-    top: 4940px;;
+    top: 4930px;;
 
     font-family: Rubik;
     font-style: normal;
@@ -1198,11 +1198,11 @@ ul.Menu_vr
 
     border-radius: 10px;
     padding: 15px;
-    background-color: rgb(245, 56, 56);
+    background-color: rgb(240, 53, 53);
     width: 250px;
     height: 30px;
     float: right;
-    margin: 0 150px;
+    margin: 0 160px;
     top: -150px;
 
     cursor: pointer;
@@ -1219,7 +1219,7 @@ ul.Menu_vr
 
 .Sub:hover
 {
-   color:maroon
+   color:rgb(128, 6, 6)
 }
 
 /*Футтер*/
@@ -1309,7 +1309,7 @@ ul.Menu_vr
     color: #AFB5C0;
 }
 
-.foott
+.fter
 {
     box-sizing: border-box;
     margin-top: -180px;
@@ -1323,7 +1323,7 @@ ul.Menu_vr
     
 }
 
-.foott h3
+.fter h3
 {
     display: flex;
     font-family: Rubik;
@@ -1337,7 +1337,7 @@ ul.Menu_vr
     align-items:flex-start;
 }
 
-.foott ul
+.fter ul
 {
     display: flex;
     line-height: 40px;
