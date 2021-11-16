@@ -1,15 +1,20 @@
+/* :root находит корневой элемент дерева документа */
 :root
 {
   --btn-text-color: #FFFFFF;
   --btn-color-bg: #F53838;
 }
 
+
+
 body
 {
     background:#F6F6F6;;
 }
 
-/*логотип в верхнем левом углу*/
+
+
+
 .logo
 {
     position: relative;
@@ -46,6 +51,7 @@ ul.Menu_vr
 
 
   .Menu_vr li 
+
 {
     font-size: 16px ;
 
@@ -194,7 +200,7 @@ ul.Menu_vr
 
 
 
-/*Кнопка Get started*/
+
 .GetStarted
 {
     width: 95px;
@@ -475,7 +481,7 @@ ul.Menu_vr
 {
     list-style-type:none; 
 
-    position: relative; /*позицию можно менять*/
+    position: relative; /*пыозицию можно менять*/
     width: 179px;
     height: 30px;
     margin-left: 950.12px;
@@ -1355,19 +1361,19 @@ ul.Menu_vr
     color: #0B132A;
 }
 
-.En-link
+.EngageL
 {
     text-decoration-line: none;
     color: #4F5665;
 }
 
-.En-link:hover
+.EngageL:hover
 {
     text-decoration-line: underline;
     color: #4F5665;
 }
 
-.Enli
+.li_Engage
 {
     list-style-type: none;
 }
@@ -1391,7 +1397,7 @@ ul.Menu_vr
     color: #4F5665;
 }
 
-.Prli
+.li_Product
 {
     list-style-type: none;
 }
