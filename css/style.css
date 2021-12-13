@@ -9,6 +9,7 @@
 
 body
 {
+    font-size: 16px ;
     font-family: Rubik;
     background:#F6F6F6;;
 }
@@ -18,27 +19,23 @@ body
 
 .logo
 {
-    position: relative;
-    width: 1050px;
-    height: 50px;
-    left: 121.3px;
-    top: 55px;
+    display:flex;
+    margin-top: 55%;
+    margin-bottom: 0%;
+    margin-left: 121.3px;
+    margin-top: 55px;
 }
 
 
 /*меню по разным страницам*/
 .Menu
 {
-    position: relative;
-    top: -30px;
     width: 46px;
-    left: 400px;
-    
-    font-style: normal;
-    font-weight: normal;
-    
-    font-size: 16px;
-    line-height: 19px;
+    display:flex;
+    margin-top: 55%;
+    margin-bottom: 2%;
+    margin-left: 400px;
+    margin-top: -67px;
 }
 
 
@@ -53,8 +50,7 @@ ul.Menu_vr
   .Menu_vr li 
 
 {
-    font-size: 16px ;
-
+    font-size: 16px;
     list-style: none;   
 }
   
@@ -68,7 +64,7 @@ ul.Menu_vr
 .li_menu
 {
     list-style-type:none;
-    font-size: 16px ;
+    
 
  
 }
@@ -145,6 +141,8 @@ ul.Menu_vr
     color:orange;
 }
 
+
+/* ///// */
 
 .h1VPN1
 {  
