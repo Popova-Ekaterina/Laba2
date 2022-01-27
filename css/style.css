@@ -471,12 +471,12 @@ ul.Menu_vr
 {
     list-style-type:none; 
 
-    position: relative; /*пыозицию можно менять*/
+    position: relative; /*позицию можно менять*/
     width: 179px;
     height: 30px;
     margin-left: 950.12px;
-    top: -350px;
-    left: 40px;
+    top: -363px;
+    left: 5px;
     
     
     font-style: normal;
